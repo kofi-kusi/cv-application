@@ -1,4 +1,4 @@
-export function Input(
+export function Input({
   label,
   name,
   data,
@@ -7,6 +7,7 @@ export function Input(
   placeholder,
   minlenght = "2",
   maxlenght = "40"
+}
 ) {
   return (
     <>
