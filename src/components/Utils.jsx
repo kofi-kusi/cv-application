@@ -1,4 +1,4 @@
-export default function Input(
+export function Input(
   label,
   name,
   data,
