@@ -2,7 +2,7 @@ import { Input } from "./utils";
 
 export default function PersonalDetails({data, setData}) {
   function handleChange(e, name){
-    setData({...data, [name]: e.target.valuw})
+    setData({...data, [name]: e.target.value})
   }
   return (
     <>
