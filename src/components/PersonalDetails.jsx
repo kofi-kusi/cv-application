@@ -7,7 +7,7 @@ export default function PersonalDetails({data, setData}) {
   return (
     <div className="">
       <Input
-        lable={"First Name"}
+        label={"First Name"}
         name={"firstName"}
         data={data.firstName}
         handleChange={handleChange}
