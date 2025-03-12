@@ -16,7 +16,7 @@ export function Input({
         type={type}
         name={name}
         value={data}
-        onChange={handleChange}
+        onChange={(e) => handleChange(e, name)}
         minLength={minlenght}
         maxLength={maxlenght}
         placeholder={placeholder}

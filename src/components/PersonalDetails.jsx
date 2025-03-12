@@ -1,8 +1,8 @@
 import { Input } from "./utils";
 
-export default function PersonalDetails({data, setData}) {
-  function handleChange(e, name){
-    setData({...data, [name]: e.target.value})
+export default function PersonalDetails({ data, setData }) {
+  function handleChange(e, name){   
+    setData({...data, [name]: e.target.value, });
   }
   return (
     <div className="">
@@ -22,8 +22,8 @@ export default function PersonalDetails({data, setData}) {
       />
        <Input 
         label={"Job Title"}
-        name={"jobTible"}
-        data={data.jobTite}
+        name={"jobTitle"}
+        data={data.jobTitle}
         handleChange={handleChange}
         placeholder={"farmer"}
       />
