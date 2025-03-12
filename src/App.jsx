@@ -41,7 +41,7 @@ function InputArea({ className, sectionName, children, isActive, onShow }) {
     <section className={className}>
       <fieldset>
         <h2>{sectionName}</h2>
-        {isActive ? { children } : <button onClick={onShow}>+</button>}
+        {isActive ? children : <button onClick={onShow}>+</button>}
       </fieldset>
     </section>
   );
